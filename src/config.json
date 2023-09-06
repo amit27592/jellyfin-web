@@ -29,8 +29,26 @@
       "color": "#0c2450"
     }
   ],
-  "menuLinks": [],
-  "servers": [],
+  "menuLinks": [
+    {
+      "name": "Requests",
+      "url": "https://requests.amitgupta.dev/"
+    },
+    {
+      "name": "Radarr",
+      "url": "http://192.168.29.251:7878"
+    },
+    {
+      "name": "Sonarr",
+      "url": "http://192.168.29.251:8989"
+    },
+    {
+      "name": "QBitTorrent",
+      "url": "http://192.168.29.251:8080"
+    }
+    
+  ],
+  "servers": ["https://media.amitgupta.dev"],
   "plugins": [
     "playAccessValidation/plugin",
     "experimentalWarnings/plugin",
